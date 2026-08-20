@@ -1,0 +1,10 @@
+# Build noise, not part of the site.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*.xlsx
+
+# Downloaded from the editor and dropped in by hand when publishing.
+# Delete this line if you want to commit your published content edits.
+# assets/js/content-overrides.js
