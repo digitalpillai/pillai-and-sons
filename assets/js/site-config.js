@@ -32,7 +32,7 @@ window.SITE_CONFIG = {
     "years_experience": "30",
     "cars_delivered": "18000",
     "happy_customers": "16500",
-    "site_url": "https://digitalpillai.github.io/pillai-and-sons",
+    "site_url": "https://pillaiandsons.in",
     "copyright_line": "Pillai & Sons Motor Company. All rights reserved.",
     "whatsapp_greeting": "Hello Pillai & Sons, I would like to enquire about a Maruti Suzuki car.",
     "dealer_disclaimer": "Pillai & Sons Motor Company is an authorised dealer of Maruti Suzuki India Limited. Maruti Suzuki, ARENA, NEXA and True Value are trademarks of Maruti Suzuki India Limited."

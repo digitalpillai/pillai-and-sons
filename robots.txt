@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://digitalpillai.github.io/pillai-and-sons/sitemap.xml
+Sitemap: https://pillaiandsons.in/sitemap.xml
