@@ -144,6 +144,250 @@
   <div class="grid grid--4"><article class="icon-card reveal" data-channel="school"><span class="icon-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="12" cy="12" r="2.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M3.2 11.4h6M14.8 11.4h6M12 14.8V21" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><h3>Dual-control cars</h3><p>The instructor has a second brake and clutch. Nothing you do in the first week can go badly wrong.</p></article><article class="icon-card reveal" data-channel="school"><span class="icon-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.6" y="4.4" width="18.8" height="12.4" rx="2.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M8.4 20.6h7.2M12 16.8v3.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><h3>Simulator first</h3><p>Clutch control, gear changes and hazard response practised before you are in live traffic.</p></article><article class="icon-card reveal" data-channel="school"><span class="icon-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.6 3.4 4.6 20.6M16.4 3.4l3 17.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M12 4v2.8M12 10.6v2.8M12 17.4v3.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><h3>Real roads, real conditions</h3><p>Market streets, the bypass, night driving and rain — the situations that actually make people nervous.</p></article><article class="icon-card reveal" data-channel="school"><span class="icon-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 4.4H7a2 2 0 0 0-2 2v12.2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6.4a2 2 0 0 0-2-2h-2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="9" y="2.6" width="6" height="3.6" rx="1.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="m9.2 13 2.2 2.2 4-4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><h3>Licence paperwork handled</h3><p>We help with the learner&#x27;s licence application and prepare you for the RTO test.</p></article></div>
 </div></section>
 
+<!-- ==========================================================================
+     PILLAI & SONS MOTOR COMPANY — MARUTI DRIVING SCHOOL
+     Drop-in block: contact details, location map and photo gallery
+     File version: V1
+     Paste this whole block into driving-school.html, immediately BEFORE the
+     "Enrol at the driving school" form section.
+     Images live at: assets/images/driving-school/
+     ========================================================================== -->
+
+<style>
+/* Scoped to .ds-block so nothing here can leak into the rest of the site.
+   Falls back to the Maruti red if your theme variables aren't present. */
+.ds-block{
+  --ds-red:var(--color-primary,#D5232B);
+  --ds-ink:var(--color-text,#16181D);
+  --ds-muted:var(--color-muted,#5D6470);
+  --ds-line:var(--color-border,#E2E5EA);
+  --ds-surface:var(--color-surface,#FFFFFF);
+  --ds-radius:var(--radius-md,12px);
+  padding:clamp(48px,7vw,80px) 0;
+}
+.ds-block *{box-sizing:border-box}
+.ds-wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.ds-eyebrow{
+  font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;
+  font-weight:700;color:var(--ds-red);margin:0 0 .5rem;
+}
+.ds-block h2{font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.15;margin:0 0 .75rem;color:var(--ds-ink)}
+.ds-block h3{font-size:1.05rem;margin:0 0 .35rem;color:var(--ds-ink)}
+.ds-intro{color:var(--ds-muted);max-width:62ch;margin:0 0 2.25rem;line-height:1.65}
+
+/* ---------- contact + map ---------- */
+.ds-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:28px;align-items:start}
+.ds-card{
+  background:var(--ds-surface);border:1px solid var(--ds-line);
+  border-radius:var(--ds-radius);padding:26px;
+}
+.ds-contact-list{list-style:none;margin:0;padding:0;display:grid;gap:20px}
+.ds-contact-list li{display:flex;gap:14px;align-items:flex-start}
+.ds-ico{
+  flex:none;width:38px;height:38px;border-radius:50%;
+  display:grid;place-items:center;background:color-mix(in srgb,var(--ds-red) 10%,transparent);
+}
+.ds-ico svg{width:19px;height:19px;fill:var(--ds-red)}
+.ds-contact-list p,.ds-contact-list address{
+  margin:0;font-style:normal;color:var(--ds-muted);line-height:1.6;font-size:.95rem;
+}
+.ds-contact-list a{color:var(--ds-ink);text-decoration:none;font-weight:600}
+.ds-contact-list a:hover,.ds-contact-list a:focus-visible{color:var(--ds-red);text-decoration:underline}
+.ds-phone-lg{font-size:1.35rem;letter-spacing:.01em}
+.ds-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.ds-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 22px;border-radius:999px;font-weight:700;font-size:.95rem;
+  text-decoration:none;border:2px solid var(--ds-red);transition:.18s ease;
+}
+.ds-btn-solid{background:var(--ds-red);color:#fff}
+.ds-btn-solid:hover,.ds-btn-solid:focus-visible{background:transparent;color:var(--ds-red)}
+.ds-btn-line{background:transparent;color:var(--ds-red)}
+.ds-btn-line:hover,.ds-btn-line:focus-visible{background:var(--ds-red);color:#fff}
+.ds-note{
+  margin:20px 0 0;padding:12px 16px;font-size:.85rem;line-height:1.55;
+  color:var(--ds-muted);border-left:3px solid var(--ds-red);
+  background:color-mix(in srgb,var(--ds-red) 5%,transparent);border-radius:0 8px 8px 0;
+}
+.ds-map{
+  border:1px solid var(--ds-line);border-radius:var(--ds-radius);
+  overflow:hidden;background:var(--ds-line);height:100%;min-height:420px;
+}
+.ds-map iframe{display:block;width:100%;height:100%;min-height:420px;border:0}
+
+/* ---------- gallery ---------- */
+.ds-gallery-head{margin-top:clamp(48px,6vw,72px)}
+.ds-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:18px;margin-top:2rem;
+}
+.ds-tile{
+  margin:0;border:1px solid var(--ds-line);border-radius:var(--ds-radius);
+  overflow:hidden;background:var(--ds-surface);
+}
+.ds-tile img{
+  display:block;width:100%;height:230px;object-fit:cover;
+  transition:transform .4s ease;
+}
+.ds-tile:hover img{transform:scale(1.04)}
+.ds-tile figcaption{
+  padding:12px 16px;font-size:.82rem;letter-spacing:.04em;
+  text-transform:uppercase;font-weight:600;color:var(--ds-muted);
+}
+.ds-tile--wide{grid-column:span 2}
+
+@media (max-width:900px){
+  .ds-split{grid-template-columns:1fr}
+  .ds-map,.ds-map iframe{min-height:340px}
+  .ds-tile--wide{grid-column:span 1}
+}
+@media (prefers-reduced-motion:reduce){
+  .ds-tile img,.ds-btn{transition:none}
+  .ds-tile:hover img{transform:none}
+}
+</style>
+
+<section class="ds-block" id="visit" aria-labelledby="ds-visit-heading">
+  <div class="ds-wrap">
+
+    <p class="ds-eyebrow">Visit the driving school</p>
+    <h2 id="ds-visit-heading">Where to find us</h2>
+    <p class="ds-intro">
+      The Maruti Driving School operates from our Rajappa Nagar branch — a separate
+      address from the main dealership showroom. Walk in for a look at the classroom
+      and simulator, or call and we will talk you through the next batch.
+    </p>
+
+    <div class="ds-split">
+
+      <!-- contact card -->
+      <div class="ds-card">
+        <ul class="ds-contact-list">
+          <li>
+            <span class="ds-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
+            </span>
+            <div>
+              <h3>Phone</h3>
+              <p><a class="ds-phone-lg" href="tel:+917094430092">70944 30092</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="ds-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+            </span>
+            <div>
+              <h3>Address</h3>
+              <address>
+                Maruti Driving School<br>
+                31, Rajappa Nagar,<br>
+                Thanjavur, Tamil Nadu 613007
+              </address>
+            </div>
+          </li>
+          <li>
+            <span class="ds-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V6h-2v7.4l5.2 3.1 1-1.7-4.2-2.2z"/></svg>
+            </span>
+            <div>
+              <h3>Timings</h3>
+              <p>Monday to Saturday, 09:00 AM – 07:30 PM</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="ds-actions">
+          <a class="ds-btn ds-btn-solid" href="tel:+917094430092">Call 70944 30092</a>
+          <a class="ds-btn ds-btn-line" href="https://maps.app.goo.gl/nywr7DXH2i2J5rVR7"
+             target="_blank" rel="noopener">Get directions</a>
+        </div>
+
+        <p class="ds-note">
+          <strong>Please note:</strong> the driving school is at a different address and
+          number from the main Pillai &amp; Sons showroom. For new car sales or service,
+          please use the dealership contact details in the footer.
+        </p>
+      </div>
+
+      <!-- map -->
+      <div class="ds-map">
+        <iframe
+          title="Map showing Maruti Driving School, Rajappa Nagar, Thanjavur"
+          src="https://www.google.com/maps?q=10.7749982,79.1258222&hl=en&z=17&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+
+    <!-- gallery -->
+    <div class="ds-gallery-head">
+      <p class="ds-eyebrow">Inside the school</p>
+      <h2>Classroom, simulator and training car</h2>
+      <p class="ds-intro">
+        A certified Maruti Driving School setup — theory classroom with the full road
+        sign syllabus, a driving simulator for clutch and hazard practice, and
+        dual-control training cars on the road outside.
+      </p>
+    </div>
+
+    <div class="ds-grid">
+      <figure class="ds-tile ds-tile--wide">
+        <img src="assets/images/driving-school/ds-branch-exterior.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Maruti Suzuki Driving School signage at the Rajappa Nagar branch in Thanjavur">
+        <figcaption>Our Rajappa Nagar branch</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-driving-simulator.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Driving simulator with steering wheel, pedals and display screen in the training room">
+        <figcaption>Driving simulator</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-theory-classroom.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Theory classroom with a whiteboard and bilingual road sign charts on the wall">
+        <figcaption>Theory classroom</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-training-room.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Training room with seating, road sign charts and cut-section engine components on display">
+        <figcaption>Training room</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-road-sign-charts.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Road sign charts covering mandatory, warning and informatory signs">
+        <figcaption>Full road sign syllabus</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-entrance-signage.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Maruti Driving School logo on the glass entrance door">
+        <figcaption>Entrance</figcaption>
+      </figure>
+
+      <figure class="ds-tile">
+        <img src="assets/images/driving-school/ds-reception-entrance.jpg"
+             width="1400" height="1050" loading="lazy"
+             alt="Maruti Driving School branding at the reception entrance">
+        <figcaption>Reception</figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+
+
 <section class="section section--smoke" id="enrol"><div class="container">
   <div class="grid grid--split grid">
     <div>
@@ -240,5 +484,48 @@
 </aside>
 
 <script src="assets/js/main.js"></script>
+<!-- ==========================================================================
+     OPTIONAL — JSON-LD schema for the driving school as a separate location.
+     Paste this just before </body> in driving-school.html.
+     ========================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "name": "Maruti Driving School — Pillai & Sons Motor Company",
+  "url": "https://pillaiandsons.in/driving-school.html",
+  "telephone": "+917094430092",
+  "parentOrganization": {
+    "@type": "AutoDealer",
+    "name": "Pillai & Sons Motor Company"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "31, Rajappa Nagar",
+    "addressLocality": "Thanjavur",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "613007",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 10.7749982,
+    "longitude": 79.1258222
+  },
+  "hasMap": "https://maps.app.goo.gl/nywr7DXH2i2J5rVR7",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:30"
+  }],
+  "image": [
+    "https://pillaiandsons.in/assets/images/driving-school/ds-branch-exterior.jpg",
+    "https://pillaiandsons.in/assets/images/driving-school/ds-driving-simulator.jpg",
+    "https://pillaiandsons.in/assets/images/driving-school/ds-theory-classroom.jpg"
+  ]
+}
+</script>
+
 </body>
 </html>
