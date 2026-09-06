@@ -222,12 +222,12 @@
 <script src="assets/js/main.js"></script>
 
 <script>
-/* Careers form -> Google Apps Script -> Google Sheet   (V2)
+/* Careers form -> Google Apps Script -> Google Sheet   (V3)
    ------------------------------------------------------------------
    SETUP: paste your Apps Script Web App URL below (must end in /exec).
    ------------------------------------------------------------------ */
 (function () {
-  var CAREERS_ENDPOINT = "https://script.google.com/macros/s/AKfycbz4xmKZ-d0qWo3pxRHBLhLt-ml4yBdZ2r7QX_d2ySH1eWoNRK6HQXHdnrFNGo-3ozeXXQ/exec";
+  var CAREERS_ENDPOINT = "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
 
   var MAX_FILES       = 10;
   var MAX_PER_FILE_MB = 25;    // per attachment
@@ -349,7 +349,7 @@
       if (k !== "resume") base[k] = v;
     });
     base.action = "apply";
-    base.submittedAt = new Date().toLocaleString("en-IN");
+    /* timestamp is set server-side so the date is never ambiguous */
 
     var rowIndex = null;
     var failed = [];
