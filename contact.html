@@ -3,46 +3,154 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Contact Pillai &amp; Sons Motor Company, Thanjavur | Pillai &amp; Sons Motor Company</title>
-<meta name="description" content="Call, WhatsApp, email or visit Pillai &amp; Sons Motor Company at 31-A, Medical College Road, Thanjavur. Separate numbers for sales and for the workshop.">
+<title>Contact Us — 35 Branches Across Tamil Nadu | Pillai &amp; Sons</title>
+<meta name="description" content="Find your nearest Pillai &amp; Sons showroom, service centre or True Value outlet. Phone numbers, addresses, directions and review links for 35 locations across 16 cities.">
 <link rel="canonical" href="https://pillaiandsons.in/contact.html">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#D5232B">
 <meta name="author" content="Pillai &amp; Sons Motor Company">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pillai &amp; Sons Motor Company">
-<meta property="og:title" content="Contact Pillai &amp; Sons Motor Company, Thanjavur | Pillai &amp; Sons Motor Company">
-<meta property="og:description" content="Call, WhatsApp, email or visit Pillai &amp; Sons Motor Company at 31-A, Medical College Road, Thanjavur. Separate numbers for sales and for the workshop.">
+<meta property="og:title" content="Contact Us — 35 Branches Across Tamil Nadu | Pillai &amp; Sons">
+<meta property="og:description" content="Find your nearest Pillai &amp; Sons showroom, service centre or True Value outlet. Phone numbers, addresses, directions and review links for 35 locations across 16 cities.">
 <meta property="og:url" content="https://pillaiandsons.in/contact.html">
 <meta property="og:image" content="https://pillaiandsons.in/assets/images/og-default.png">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contact Pillai &amp; Sons Motor Company, Thanjavur | Pillai &amp; Sons Motor Company">
-<meta name="twitter:description" content="Call, WhatsApp, email or visit Pillai &amp; Sons Motor Company at 31-A, Medical College Road, Thanjavur. Separate numbers for sales and for the workshop.">
+<meta name="twitter:title" content="Contact Us — 35 Branches Across Tamil Nadu | Pillai &amp; Sons">
+<meta name="twitter:description" content="Find your nearest Pillai &amp; Sons showroom, service centre or True Value outlet. Phone numbers, addresses, directions and review links for 35 locations across 16 cities.">
 <meta name="twitter:image" content="https://pillaiandsons.in/assets/images/og-default.png">
 <link rel="icon" href="assets/images/logo.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/images/logo.png">
 <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/main.css">
+<style>
+/* Branch finder — Pillai & Sons  (V1) */
+.bf{--bf-gap:18px}
+.bf__bar{
+  display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;
+  padding:20px;border:1px solid var(--c-border);border-radius:var(--r-card);
+  background:var(--c-white-smoke);margin-bottom:26px;
+}
+.bf__control{display:flex;flex-direction:column;gap:6px;flex:0 1 320px;min-width:0}
+.bf__control label{font-size:14px;font-weight:600;color:var(--c-heading)}
+.bf__control select,.bf__control input{
+  font:inherit;font-size:16px;color:var(--c-heading);
+  padding:12px 14px;border:1px solid var(--c-border);
+  border-radius:var(--r-btn);background:#fff;width:100%;
+}
+.bf__control select:focus,.bf__control input:focus{
+  outline:2px solid var(--c-primary);outline-offset:1px;
+}
+.bf__count{flex:0 0 auto;font-size:14px;color:var(--c-text);padding-bottom:12px}
+.bf__count b{color:var(--c-primary-ink)}
+
+.bf__grid{display:grid;gap:var(--bf-gap);grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr))}
+
+.bf-card{
+  display:flex;flex-direction:column;gap:14px;
+  border:1px solid var(--c-border);border-radius:var(--r-card);
+  background:#fff;padding:22px;position:relative;overflow:hidden;
+}
+.bf-card::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--bf-ch,var(--c-primary))}
+.bf-card__top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.bf-card__no{
+  font-size:12px;font-weight:700;color:var(--c-text);
+  background:var(--c-white-smoke);border-radius:999px;padding:3px 10px;flex:none;
+}
+.bf-card h3{margin:0;font-size:17px;line-height:1.35;color:var(--c-heading)}
+.bf-card__tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.bf-tag{
+  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  padding:4px 9px;border-radius:999px;background:var(--bf-ch,var(--c-primary));color:#fff;
+}
+.bf-tag--soft{background:var(--c-white-smoke);color:var(--c-text)}
+
+.bf-row{display:flex;gap:11px;align-items:flex-start;font-size:14.5px;line-height:1.55;color:var(--c-text)}
+.bf-row svg{width:18px;height:18px;flex:none;margin-top:2px;fill:var(--bf-ch,var(--c-primary))}
+.bf-row a{color:var(--c-heading);font-weight:700;text-decoration:none}
+.bf-row a:hover,.bf-row a:focus-visible{color:var(--c-primary);text-decoration:underline}
+.bf-row address{font-style:normal}
+
+.bf-card__foot{margin-top:auto;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.bf-actions{display:flex;flex-wrap:wrap;gap:8px;flex:1 1 auto}
+.bf-btn{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:13.5px;font-weight:700;text-decoration:none;
+  padding:9px 14px;border-radius:var(--r-btn);
+  border:1px solid var(--c-border);color:var(--c-heading);background:#fff;
+  transition:.15s ease;
+}
+.bf-btn svg{width:15px;height:15px;fill:currentColor}
+.bf-btn:hover,.bf-btn:focus-visible{border-color:var(--bf-ch,var(--c-primary));color:var(--bf-ch,var(--c-primary))}
+.bf-btn--call{background:var(--bf-ch,var(--c-primary));border-color:var(--bf-ch,var(--c-primary));color:#fff}
+.bf-btn--call:hover,.bf-btn--call:focus-visible{background:#fff;color:var(--bf-ch,var(--c-primary))}
+
+.bf-qr{
+  flex:none;text-align:center;cursor:zoom-in;
+  background:none;border:0;padding:0;font:inherit;display:block;
+  border-radius:8px;transition:transform .15s ease;
+}
+.bf-qr:hover{transform:scale(1.05)}
+.bf-qr:focus-visible{outline:2px solid var(--c-primary);outline-offset:3px}
+.bf-qr img{width:78px;height:78px;border:1px solid var(--c-border);border-radius:8px;background:#fff;display:block}
+.bf-qr span{display:block;font-size:10.5px;color:var(--c-text);margin-top:5px;letter-spacing:.03em}
+
+/* QR popup */
+.bf-lb[hidden]{display:none}
+.bf-lb{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:20px}
+.bf-lb__backdrop{position:absolute;inset:0;background:rgba(12,14,18,.72);backdrop-filter:blur(2px)}
+.bf-lb__panel{
+  position:relative;background:#fff;border-radius:var(--r-card);
+  padding:26px 26px 22px;max-width:min(92vw,420px);width:100%;
+  box-shadow:0 24px 60px rgba(0,0,0,.35);text-align:center;
+  animation:bf-pop .16s ease-out;
+}
+@keyframes bf-pop{from{opacity:0;transform:translateY(8px) scale(.97)}to{opacity:1;transform:none}}
+.bf-lb__x{
+  position:absolute;top:10px;right:10px;width:38px;height:38px;
+  display:grid;place-items:center;border-radius:50%;cursor:pointer;
+  background:var(--c-white-smoke);border:1px solid var(--c-border);color:var(--c-heading);
+  transition:.15s ease;
+}
+.bf-lb__x:hover{background:var(--c-primary);border-color:var(--c-primary);color:#fff}
+.bf-lb__x:focus-visible{outline:2px solid var(--c-primary);outline-offset:2px}
+.bf-lb__x svg{width:18px;height:18px}
+.bf-lb__title{
+  margin:0 34px 16px;font-family:var(--f-heading);font-weight:700;
+  font-size:16px;line-height:1.35;color:var(--c-heading);
+}
+.bf-lb__img{
+  width:100%;max-width:300px;height:auto;margin:0 auto;display:block;
+  border:1px solid var(--c-border);border-radius:10px;background:#fff;
+}
+.bf-lb__hint{margin:14px 0 0;font-size:13.5px;line-height:1.5;color:var(--c-text)}
+body.bf-lb-open{overflow:hidden}
+@media (max-width:640px){
+  .bf-lb__panel{padding:22px 18px 18px}
+  .bf-lb__img{max-width:250px}
+}
+
+.bf__empty{padding:34px;text-align:center;color:var(--c-text);border:1px dashed var(--c-border);border-radius:var(--r-card)}
+
+@media (max-width:640px){
+  .bf__bar{padding:16px;gap:12px}
+  .bf__control{flex:1 1 100%}
+  .bf__count{padding-bottom:0;flex:1 1 100%}
+  .bf-card{padding:18px}
+  .bf-card__foot{flex-direction:column;align-items:stretch}
+  .bf-qr{align-self:flex-start}
+  .bf-actions .bf-btn{flex:1 1 auto;justify-content:center}
+}
+</style>
 <script src="assets/js/site-config.js"></script>
 <script src="assets/js/content.js"></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":["AutoDealer","AutomotiveBusiness","LocalBusiness"],"@id":"https://pillaiandsons.in/#business","name":"Pillai & Sons Motor Company","description":"Authorised Maruti Suzuki dealer in Thanjavur — ARENA and NEXA new cars, True Value pre-owned, service, genuine parts and the Maruti Driving School, all under one roof.","url":"https://pillaiandsons.in/","telephone":"+918939752872","email":"sales@pillaiandsons.in","image":"https://pillaiandsons.in/assets/images/og-default.png","logo":"https://pillaiandsons.in/assets/images/logo.png","priceRange":"₹₹","currenciesAccepted":"INR","address":{"@type":"PostalAddress","streetAddress":"31-A, Medical College Road, Rajjappa Nagar, Jayalakshmi Nagar","addressLocality":"Thanjavur","addressRegion":"Tamil Nadu","postalCode":"613007","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Thanjavur"},{"@type":"City","name":"Kumbakonam"},{"@type":"City","name":"Pattukkottai"},{"@type":"City","name":"Papanasam"},{"@type":"City","name":"Orathanadu"}],"brand":{"@type":"Brand","name":"Maruti Suzuki"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:00","closes":"17:00"}],"sameAs":["https://www.facebook.com/","https://www.instagram.com/","https://www.linkedin.com/","https://twitter.com/","https://www.youtube.com/","https://www.justdial.com/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["AutoDealer","AutomotiveBusiness","LocalBusiness"],"@id":"https://pillaiandsons.in/#business","name":"Pillai & Sons Motor Company","description":"Authorised Maruti Suzuki dealer in Thanjavur — ARENA and NEXA new cars, True Value pre-owned, service, genuine parts and the Maruti Driving School, all under one roof.","url":"https://pillaiandsons.in/","telephone":"+918071645674","email":"digital.marketing@pillaimotors.in","image":"https://pillaiandsons.in/assets/images/og-default.png","logo":"https://pillaiandsons.in/assets/images/logo.png","priceRange":"₹₹","currenciesAccepted":"INR","address":{"@type":"PostalAddress","streetAddress":"31-A, Medical College Road, Rajjappa Nagar, Jayalakshmi Nagar","addressLocality":"Thanjavur","addressRegion":"Tamil Nadu","postalCode":"613007","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Thanjavur"},{"@type":"City","name":"Kumbakonam"},{"@type":"City","name":"Pattukkottai"},{"@type":"City","name":"Papanasam"},{"@type":"City","name":"Orathanadu"}],"brand":{"@type":"Brand","name":"Maruti Suzuki"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:00","closes":"17:00"}],"sameAs":["https://www.facebook.com/","https://www.instagram.com/","https://www.linkedin.com/","https://twitter.com/","https://www.youtube.com/","https://www.justdial.com/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://pillaiandsons.in/index.html"},{"@type":"ListItem","position":2,"name":"Contact"}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
-
-<aside class="topbar" aria-label="Contact details and social links">
-  <div class="container topbar__inner">
-    <div class="topbar__contact">
-      <a href="tel:+918939752872" data-biz-href="tel"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16.9v2.6a1.8 1.8 0 0 1-2 1.8 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.3 5.5a1.8 1.8 0 0 1 1.8-2h2.6a1.8 1.8 0 0 1 1.8 1.6c.1.9.3 1.7.6 2.5a1.8 1.8 0 0 1-.4 1.9l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.8 1.8 0 0 1 1.9-.4c.8.3 1.6.5 2.5.6a1.8 1.8 0 0 1 1.6 1.9Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="topbar__tag">Sales</span><span data-biz="phone_display">+91 89397 52872</span></a>
-      <a href="tel:+918939752872" data-biz-href="tel_service"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="topbar__tag">Service</span><span data-biz="phone_service_display">+91 89397 52872</span></a>
-      <span class="topbar__hours"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M12 7v5.3l3.4 2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span data-biz="business_hours">Mon - Sat  09:00 AM - 07:30 PM</span></span>
-    </div>
-    <div class="social-row"><a href="#" data-social="facebook" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5H16.7V3.6a22 22 0 0 0-2.4-.12c-2.4 0-4 1.45-4 4.12v2.3H7.6V13h2.7v8h3.2Z" fill="currentColor"/></svg></a><a href="#" data-social="instagram" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg></a><a href="#" data-social="youtube" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.6 7.9a2.6 2.6 0 0 0-1.8-1.8C18.2 5.6 12 5.6 12 5.6s-6.2 0-7.8.5A2.6 2.6 0 0 0 2.4 7.9 27 27 0 0 0 2 12a27 27 0 0 0 .4 4.1 2.6 2.6 0 0 0 1.8 1.8c1.6.5 7.8.5 7.8.5s6.2 0 7.8-.5a2.6 2.6 0 0 0 1.8-1.8A27 27 0 0 0 22 12a27 27 0 0 0-.4-4.1ZM10 15V9l5.2 3L10 15Z" fill="currentColor"/></svg></a><a href="#" data-social="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.9 8.6H4V21h2.9V8.6ZM5.45 3.4a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM20 13.9c0-3.2-1.7-4.7-4-4.7a3.5 3.5 0 0 0-3.1 1.7h-.1V8.6H10V21h2.9v-6.1c0-1.6.3-3.2 2.3-3.2s2 1.8 2 3.3V21H20v-7.1Z" fill="currentColor"/></svg></a><a href="#" data-social="twitter" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.6 3h3.3l-7.2 8.2L22 21h-6.6l-5.2-6.8L4.3 21H1l7.7-8.8L1.3 3H8l4.7 6.2L17.6 3Zm-1.2 16h1.8L7.7 4.9H5.8L16.4 19Z" fill="currentColor"/></svg></a><a href="#" data-social="pinterest" target="_blank" rel="noopener" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-3.3 17.4c-.08-.7-.15-1.9.03-2.7l1.1-4.6s-.28-.56-.28-1.4c0-1.3.76-2.3 1.7-2.3.8 0 1.2.6 1.2 1.3 0 .8-.5 2-.78 3.2-.22 1 .5 1.8 1.5 1.8 1.8 0 3.1-1.9 3.1-4.6 0-2.4-1.7-4.1-4.2-4.1a4.4 4.4 0 0 0-4.5 4.4c0 .9.33 1.8.75 2.3.08.1.09.2.07.3l-.28 1.1c-.04.2-.15.2-.34.1-1.3-.6-2.1-2.5-2.1-4 0-3.2 2.4-6.2 6.8-6.2 3.6 0 6.4 2.5 6.4 5.9 0 3.5-2.2 6.4-5.3 6.4-1 0-2-.5-2.3-1.2l-.6 2.4c-.2.9-.8 2-1.2 2.6A9 9 0 1 0 12 3Z" fill="currentColor"/></svg></a><a href="#" data-social="indiamart" target="_blank" rel="noopener" aria-label="IndiaMART"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9.5V20h16V9.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M3 4h18l1 5.5a3 3 0 0 1-5.5 1.6 3 3 0 0 1-5 0 3 3 0 0 1-5 0A3 3 0 0 1 2 9.5L3 4Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M9.5 20v-5.5h5V20" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></a><a href="#" data-social="justdial" target="_blank" rel="noopener" aria-label="JustDial"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.6 5.2h6a3.4 3.4 0 0 1 3.4 3.4V20a2.6 2.6 0 0 0-2.6-2.6h-6.8V5.2ZM21.4 5.2h-6A3.4 3.4 0 0 0 12 8.6V20a2.6 2.6 0 0 1 2.6-2.6h6.8V5.2Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></a></div>
-  </div>
-</aside>
 
 <header class="site-header">
   <div class="container">
@@ -71,12 +179,12 @@
 <div class="nav-backdrop"></div>
 
 <main id="main"><section class="page-banner page-banner--photo">
-  <div class="page-banner__media"><img src="assets/images/banners/contact.jpg" alt="New Maruti Suzuki cars on a showroom floor" width="750" height="463" data-cms-src="contact.banner.photo"></div>
+  <div class="page-banner__media"><img src="assets/images/banners/contact.jpg" alt="Pillai &amp; Sons showroom" width="1600" height="858" data-cms-src="contact.banner.photo"></div>
   <div class="container page-banner__inner">
     <div class="page-banner__copy">
-      <span class="eyebrow">Get in touch</span>
-      <h1 data-cms="contact.banner.heading">Contact us</h1>
-      <p data-cms="contact.banner.text">Two numbers, because there are two kinds of call. Both answered by a person.</p>
+      <span class="eyebrow">35 branches &middot; 16 cities</span>
+      <h1>Contact Us</h1>
+      <p>Find your nearest Pillai &amp; Sons showroom or workshop. Pick your city to see its phone number, address, directions and review link.</p>
     </div>
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumb"><li><a href="index.html">Home</a></li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span aria-current="page">Contact</span></li></ol>
@@ -85,54 +193,22 @@
 </section>
 
 <section class="section"><div class="container">
-  <div class="contact-grid">
-    <div>
-      <span class="eyebrow">Get in touch</span>
-      <h2>Two numbers, because there are two kinds of call</h2>
-      <p>One for buying a car, one for the workshop. Both are answered by a person during
-         opening hours, and neither of them is a call centre.</p>
-      <ul class="contact-list">
-        <li>
-          <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10.5c0 5.4-8 12-8 12s-8-6.6-8-12a8 8 0 0 1 16 0Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="12" cy="10.3" r="2.9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
-          <div><h3>Showroom and workshop</h3><p data-biz="address_block">31-A, Medical College Road, Rajjappa Nagar, Jayalakshmi Nagar, Thanjavur - 613007, Tamil Nadu</p></div>
-        </li>
-        <li>
-          <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16.9v2.6a1.8 1.8 0 0 1-2 1.8 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.3 5.5a1.8 1.8 0 0 1 1.8-2h2.6a1.8 1.8 0 0 1 1.8 1.6c.1.9.3 1.7.6 2.5a1.8 1.8 0 0 1-.4 1.9l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.8 1.8 0 0 1 1.9-.4c.8.3 1.6.5 2.5.6a1.8 1.8 0 0 1 1.6 1.9Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
-          <div><h3>Sales</h3><p><a href="tel:+918939752872" data-biz-href="tel"><span data-biz="phone_display">+91 89397 52872</span></a></p></div>
-        </li>
-        <li>
-          <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
-          <div><h3>Service</h3><p><a href="tel:+918939752872" data-biz-href="tel_service"><span data-biz="phone_service_display">+91 89397 52872</span></a></p></div>
-        </li>
-        <li>
-          <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.6" y="4.6" width="18.8" height="14.8" rx="2.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="m3.4 6.4 8.6 6 8.6-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
-          <div><h3>Email</h3><p><a href="mailto:sales@pillaiandsons.in" data-biz-href="mail"><span data-biz="email">sales@pillaiandsons.in</span></a></p></div>
-        </li>
-        <li>
-          <span class="contact-list__icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M12 7v5.3l3.4 2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
-          <div><h3>Opening hours</h3>
-            <p><span data-biz="business_hours">Mon - Sat  09:00 AM - 07:30 PM</span><br>
-               <span data-biz="business_hours_sun">Sunday  10:00 AM - 05:00 PM</span><br>
-               Workshop: <span data-biz="service_hours">Mon - Sat  08:30 AM - 06:30 PM</span></p></div>
-        </li>
-      </ul>
-      <div class="hero__actions" style="margin-top:28px"><a class="btn btn--wa" href="#" data-biz-href="wa" data-wa-message="Hello Pillai &amp; Sons, I would like to enquire about a Maruti Suzuki car." target="_blank" rel="noopener">Chat on WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.5 14.4c-.3-.15-1.75-.86-2-.96-.28-.1-.48-.15-.68.15s-.78.96-.95 1.16c-.18.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.18-.3 0-.46.13-.6.13-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.62-.93-2.22-.24-.58-.5-.5-.68-.51h-.58c-.2 0-.53.07-.8.37-.28.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.71.63.72.23 1.38.2 1.9.12.58-.09 1.75-.72 2-1.4.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35ZM12 2.2A9.7 9.7 0 0 0 3.72 17L2.4 21.9l5-1.3A9.7 9.7 0 1 0 12 2.2Zm0 17.7a8 8 0 0 1-4.1-1.12l-.3-.18-3 .78.8-2.92-.2-.3A8 8 0 1 1 12 19.9Z" fill="currentColor"/></svg></a> <a class="btn btn--outline" href="#" data-biz-href="map" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10.5c0 5.4-8 12-8 12s-8-6.6-8-12a8 8 0 0 1 16 0Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="12" cy="10.3" r="2.9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> Get directions</a></div>
-    </div>
-    <form class="form-card" data-wa-form data-wa-heading="Send us a message" id="contact-form" novalidate>
-  <h2>Send us a message</h2>
-  
-  
-  <div class="form-grid"><div class="form-field"><label for="f-enq-name">Your name <span class="req" aria-hidden="true">*</span></label><input id="f-enq-name" type="text" name="name" required aria-required="true" placeholder="Full name" value=""><span class="field-error" aria-live="polite"></span></div><div class="form-field"><label for="f-enq-phone">Phone <span class="req" aria-hidden="true">*</span></label><input id="f-enq-phone" type="tel" name="phone" required aria-required="true" placeholder="10-digit mobile" value=""><span class="field-error" aria-live="polite"></span></div><div class="form-field"><label for="f-enq-email">Email</label><input id="f-enq-email" type="email" name="email" placeholder="you@example.com" value=""><span class="field-error" aria-live="polite"></span></div><div class="form-field"><label for="f-enq-city">City</label><select id="f-enq-city" name="city"><option value="" selected>Select</option><option value="Thanjavur">Thanjavur</option><option value="Kumbakonam">Kumbakonam</option><option value="Pattukkottai">Pattukkottai</option><option value="Orathanadu">Orathanadu</option><option value="Papanasam">Papanasam</option><option value="Other">Other</option></select><span class="field-error" aria-live="polite"></span></div><div class="form-field"><label for="f-enq-model">Model of interest</label><select id="f-enq-model" name="model"><option value="" selected>Select</option><option value="S-Presso">S-Presso</option><option value="Alto K10">Alto K10</option><option value="Celerio">Celerio</option><option value="WagonR">WagonR</option><option value="Swift">Swift</option><option value="Dzire">Dzire</option><option value="Brezza">Brezza</option><option value="Ertiga">Ertiga</option><option value="Victoris">Victoris</option><option value="Eeco">Eeco</option><option value="Baleno">Baleno</option><option value="Fronx">Fronx</option><option value="Grand Vitara">Grand Vitara</option><option value="XL6">XL6</option><option value="Jimny">Jimny</option><option value="e Vitara">e Vitara</option><option value="Invicto">Invicto</option></select><span class="field-error" aria-live="polite"></span></div><div class="form-field"><label for="f-enq-finance">Do you need finance?</label><select id="f-enq-finance" name="finance"><option value="" selected>Select</option><option value="Yes, please arrange it">Yes, please arrange it</option><option value="No, paying outright">No, paying outright</option><option value="Not decided">Not decided</option></select><span class="field-error" aria-live="polite"></span></div><div class="form-field form-field--full"><label for="f-enq-msg">Anything else we should know?</label><textarea id="f-enq-msg" name="message" placeholder="Variant, colour, timeline, exchange car…"></textarea><span class="field-error" aria-live="polite"></span></div></div>
-  <div class="mt-32"><button class="btn btn--block" type="submit">Send on WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.5 14.4c-.3-.15-1.75-.86-2-.96-.28-.1-.48-.15-.68.15s-.78.96-.95 1.16c-.18.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.18-.3 0-.46.13-.6.13-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.62-.93-2.22-.24-.58-.5-.5-.68-.51h-.58c-.2 0-.53.07-.8.37-.28.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.71.63.72.23 1.38.2 1.9.12.58-.09 1.75-.72 2-1.4.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35ZM12 2.2A9.7 9.7 0 0 0 3.72 17L2.4 21.9l5-1.3A9.7 9.7 0 1 0 12 2.2Zm0 17.7a8 8 0 0 1-4.1-1.12l-.3-.18-3 .78.8-2.92-.2-.3A8 8 0 1 1 12 19.9Z" fill="currentColor"/></svg></button></div>
-  <div class="form-status" role="status" aria-live="polite"></div>
-  <p class="form-note">Your details open in WhatsApp so you can check them before sending. Nothing is stored on this website.</p>
-</form>
+  <div class="section-head">
+    <span class="eyebrow">Branch directory</span>
+    <h2>Choose your city</h2>
+    <p>Every branch below is an authorised Pillai &amp; Sons location. Tap to call, get directions, open the listing on Google Maps, or scan the QR code to leave a review.</p>
   </div>
-</div></section>
-
-<section class="section section--smoke"><div class="container">
-  <div class="section-head reveal"><span class="eyebrow" data-cms="contact.map.eyebrow">Find us</span><h2 data-cms="contact.map.title">Medical College Road, Thanjavur</h2></div>
-  <div class="map-embed"><iframe src="https://www.google.com/maps?q=31-A,+Medical+College+Road,+Rajjappa+Nagar,+Thanjavur,+Tamil+Nadu+613007&amp;output=embed" title="Map to Pillai &amp; Sons Motor Company on Google Maps" width="600" height="450" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-biz-src="map"></iframe></div>
+  <div class="bf" id="branch-finder">
+  <div class="bf__bar">
+    <div class="bf__control">
+      <label for="bf-city">Choose your city</label>
+      <select id="bf-city"><option value="">All cities</option></select>
+    </div>
+    <p class="bf__count" id="bf-count"></p>
+  </div>
+  <div class="bf__grid" id="bf-grid"></div>
+  <p class="bf__empty" id="bf-empty" hidden>No branch matches that combination. Try “All cities”.</p>
+</div>
 </div></section>
 </main>
 <section class="newsletter" aria-labelledby="newsletter-title">
@@ -169,9 +245,9 @@
         <h3>Reach Us</h3>
         <ul class="footer-contact">
           <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10.5c0 5.4-8 12-8 12s-8-6.6-8-12a8 8 0 0 1 16 0Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="12" cy="10.3" r="2.9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span data-biz="address_block">31-A, Medical College Road, Rajjappa Nagar, Jayalakshmi Nagar, Thanjavur - 613007, Tamil Nadu</span></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16.9v2.6a1.8 1.8 0 0 1-2 1.8 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.3 5.5a1.8 1.8 0 0 1 1.8-2h2.6a1.8 1.8 0 0 1 1.8 1.6c.1.9.3 1.7.6 2.5a1.8 1.8 0 0 1-.4 1.9l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.8 1.8 0 0 1 1.9-.4c.8.3 1.6.5 2.5.6a1.8 1.8 0 0 1 1.6 1.9Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="tel:+918939752872" data-biz-href="tel">Sales <span data-biz="phone_display">+91 89397 52872</span></a></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="tel:+918939752872" data-biz-href="tel_service">Service <span data-biz="phone_service_display">+91 89397 52872</span></a></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.6" y="4.6" width="18.8" height="14.8" rx="2.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="m3.4 6.4 8.6 6 8.6-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="mailto:sales@pillaiandsons.in" data-biz-href="mail"><span data-biz="email">sales@pillaiandsons.in</span></a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16.9v2.6a1.8 1.8 0 0 1-2 1.8 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.3 5.5a1.8 1.8 0 0 1 1.8-2h2.6a1.8 1.8 0 0 1 1.8 1.6c.1.9.3 1.7.6 2.5a1.8 1.8 0 0 1-.4 1.9l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.8 1.8 0 0 1 1.9-.4c.8.3 1.6.5 2.5.6a1.8 1.8 0 0 1 1.6 1.9Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="tel:+918071645674" data-biz-href="tel">Sales <span data-biz="phone_display">+91 80716 45674</span></a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="tel:+918071645674" data-biz-href="tel_service">Service <span data-biz="phone_service_display">+91 80716 45674</span></a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.6" y="4.6" width="18.8" height="14.8" rx="2.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="m3.4 6.4 8.6 6 8.6-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><a href="mailto:digital.marketing@pillaimotors.in" data-biz-href="mail"><span data-biz="email">digital.marketing@pillaimotors.in</span></a></li>
           <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M12 7v5.3l3.4 2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span data-biz="business_hours">Mon - Sat  09:00 AM - 07:30 PM</span></li>
         </ul>
       </div>
@@ -210,5 +286,176 @@
 </aside>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/locations.js"></script>
+<script>
+/* Branch finder  (V1) */
+(function () {
+  var data = window.PS_LOCATIONS || [];
+  var grid  = document.getElementById("bf-grid");
+  var citySel = document.getElementById("bf-city");
+  var count = document.getElementById("bf-count");
+  var empty = document.getElementById("bf-empty");
+  if (!grid) return;
+
+  var CH = { arena:"#D5232B", nexa:"#1A1A1A", truevalue:"#1B4F9C",
+             service:"#B8791A", commercial:"#455A64" };
+  var LABEL = { arena:"Arena", nexa:"Nexa", truevalue:"True Value",
+                service:"Service", commercial:"Commercial" };
+
+  var I = {
+    phone:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>',
+    pin:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>',
+    clock:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V6h-2v7.4l5.2 3.1 1-1.7-4.2-2.2z"/></svg>',
+    map:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3l-.2 0-5.3 2-6-2-5.7 1.9c-.2.1-.3.2-.3.4V20c0 .3.2.5.5.5l.2 0 5.3-2 6 2 5.7-1.9c.2-.1.3-.2.3-.4V3.5c0-.3-.2-.5-.5-.5zM15 19l-6-2.1V5l6 2.1V19z"/></svg>',
+    nav:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l18-8-8 18-2-7-8-3z"/></svg>',
+    star:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 5.8 21l1.6-7L2 9.2l7.2-.6L12 2l2.8 6.6 7.2.6-5.4 4.8 1.6 7z"/></svg>'
+  };
+
+  function esc(s){ return String(s == null ? "" : s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+  function shortHours(h){
+    if (!h) return "";
+    var m = /Mon\s+([\d:]+\s*-\s*[\d:]+)/.exec(h);
+    var s = /Sun\s+([\d:]+\s*-\s*[\d:]+)/.exec(h);
+    if (!m) return "";
+    var out = "Mon–Sat " + m[1].replace(/\s/g,"");
+    if (s) out += " · Sun " + s[1].replace(/\s/g,"");
+    return out;
+  }
+
+  function card(x){
+    var ch = CH[x.ch] || CH.arena;
+    var h  = shortHours(x.hours);
+    var out = '<article class="bf-card" style="--bf-ch:' + ch + '">';
+    out += '<div><div class="bf-card__top"><h3>' + esc(x.title) + '</h3>' +
+           '<span class="bf-card__no">#' + x.no + '</span></div>' +
+           '<div class="bf-card__tags"><span class="bf-tag">' + esc(LABEL[x.ch] || x.ch) + '</span>' +
+           '<span class="bf-tag bf-tag--soft">' + esc(x.kind) + '</span>' +
+           '<span class="bf-tag bf-tag--soft">' + esc(x.city) + '</span></div></div>';
+
+    out += '<div class="bf-row">' + I.phone + '<span><a href="tel:' + esc(x.tel) + '">' +
+           esc(x.phone) + '</a></span></div>';
+    out += '<div class="bf-row">' + I.pin + '<address>' + esc(x.address) + '</address></div>';
+    if (h) out += '<div class="bf-row">' + I.clock + '<span>' + esc(h) + '</span></div>';
+
+    out += '<div class="bf-card__foot"><div class="bf-actions">';
+    out += '<a class="bf-btn bf-btn--call" href="tel:' + esc(x.tel) + '">' + I.phone + 'Call</a>';
+    if (x.dir)    out += '<a class="bf-btn" target="_blank" rel="noopener" href="' + esc(x.dir) + '">' + I.nav + 'Directions</a>';
+    if (x.maps)   out += '<a class="bf-btn" target="_blank" rel="noopener" href="' + esc(x.maps) + '">' + I.map + 'Map</a>';
+    if (x.review) out += '<a class="bf-btn" target="_blank" rel="noopener" href="' + esc(x.review) + '">' + I.star + 'Review</a>';
+    out += '</div>';
+    if (x.qr) {
+      out += '<button type="button" class="bf-qr" data-qr="' + esc(x.qr) + '" ' +
+             'data-qr-title="' + esc(x.title) + '" ' +
+             'aria-label="Enlarge the review QR code for ' + esc(x.title) + '">' +
+             '<img src="' + esc(x.qr) + '" width="78" height="78" loading="lazy" alt="">' +
+             '<span>Tap to enlarge</span></button>';
+    }
+    out += '</div></article>';
+    return out;
+  }
+
+  /* city dropdown */
+  var cities = [];
+  data.forEach(function(x){ if (cities.indexOf(x.city) === -1) cities.push(x.city); });
+  cities.sort();
+  cities.forEach(function(c){
+    var n = data.filter(function(x){ return x.city === c; }).length;
+    var o = document.createElement("option");
+    o.value = c; o.textContent = c + " (" + n + ")";
+    citySel.appendChild(o);
+  });
+
+  function render(){
+    var c = citySel.value;
+    var list = data.filter(function(x){
+      return !c || x.city === c;
+    });
+    grid.innerHTML = list.map(card).join("");
+    empty.hidden = list.length > 0;
+    count.innerHTML = "<b>" + list.length + "</b> branch" + (list.length === 1 ? "" : "es") +
+                      (c ? " in " + esc(c) : " across " + cities.length + " cities");
+    /* keep the chosen city in the URL so it can be shared */
+    try {
+      var u = new URL(window.location.href);
+      c ? u.searchParams.set("city", c) : u.searchParams.delete("city");
+      history.replaceState(null, "", u);
+    } catch (e) {}
+  }
+
+  /* preselect from ?city= */
+  try {
+    var want = new URL(window.location.href).searchParams.get("city");
+    if (want && cities.indexOf(want) > -1) citySel.value = want;
+  } catch (e) {}
+
+  citySel.addEventListener("change", render);
+  render();
+
+  /* ---------- QR popup ---------- */
+  var lb = document.createElement("div");
+  lb.className = "bf-lb";
+  lb.hidden = true;
+  lb.setAttribute("role", "dialog");
+  lb.setAttribute("aria-modal", "true");
+  lb.setAttribute("aria-label", "Review QR code");
+  lb.innerHTML =
+    '<div class="bf-lb__backdrop" data-close></div>' +
+    '<div class="bf-lb__panel">' +
+      '<button type="button" class="bf-lb__x" data-close aria-label="Close">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+        '<path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" ' +
+        'stroke-linecap="round" fill="none"/></svg>' +
+      '</button>' +
+      '<p class="bf-lb__title"></p>' +
+      '<img class="bf-lb__img" alt="">' +
+      '<p class="bf-lb__hint">Point your phone camera at the code to leave a Google review.</p>' +
+    '</div>';
+  document.body.appendChild(lb);
+
+  var lbImg   = lb.querySelector(".bf-lb__img");
+  var lbTitle = lb.querySelector(".bf-lb__title");
+  var lastFocus = null;
+
+  function openQR(src, title){
+    lastFocus = document.activeElement;
+    lbImg.src = src;
+    lbImg.alt = "QR code to write a Google review for " + title;
+    lbTitle.textContent = title;
+    lb.hidden = false;
+    document.body.classList.add("bf-lb-open");
+    lb.querySelector(".bf-lb__x").focus();
+  }
+
+  function closeQR(){
+    lb.hidden = true;
+    lbImg.removeAttribute("src");
+    document.body.classList.remove("bf-lb-open");
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  /* delegated, so it keeps working after the grid re-renders */
+  grid.addEventListener("click", function (e) {
+    var btn = e.target.closest ? e.target.closest(".bf-qr") : null;
+    if (!btn) return;
+    openQR(btn.getAttribute("data-qr"), btn.getAttribute("data-qr-title"));
+  });
+
+  lb.addEventListener("click", function (e) {
+    if (e.target.hasAttribute("data-close") ||
+        (e.target.closest && e.target.closest("[data-close]"))) closeQR();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (lb.hidden) return;
+    if (e.key === "Escape") { closeQR(); return; }
+    if (e.key === "Tab") {           /* keep focus inside the dialog */
+      e.preventDefault();
+      lb.querySelector(".bf-lb__x").focus();
+    }
+  });
+})();
+</script>
 </body>
 </html>

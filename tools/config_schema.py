@@ -15,15 +15,15 @@ BUSINESS = [
     ("tagline",            "Authorised Maruti Suzuki Dealer", "Small line under the logo and in the footer."),
     ("short_description",  "Authorised Maruti Suzuki dealer in Thanjavur — ARENA and NEXA new cars, True Value pre-owned, service, genuine parts and the Maruti Driving School, all under one roof.",
                                                               "Used in the footer and as the fallback meta description."),
-    ("phone",              "8939752872",                      "Digits only, no spaces. Used to build tel: links."),
+    ("phone",              "8071645674",                      "Digits only, no spaces. Used to build tel: links."),
     ("phone_display",      "+91 89397 52872",                 "How the phone number is printed on screen."),
     ("phone_country_code", "91",                              "Country code without '+'. India = 91."),
-    ("phone_service",      "8939752872",                      "Workshop / service booking number. Digits only."),
+    ("phone_service",      "8071645674",                      "Workshop / service booking number. Digits only."),
     ("phone_service_display", "+91 89397 52872",              "How the service number is printed on screen."),
     ("whatsapp_number",    "918939752872",                    "Country code + number, digits only. Every form opens wa.me/<this>."),
-    ("email",              "sales@pillaiandsons.in",          "The address printed on the contact page, in the footer and in the "
+    ("email",              "digital.marketing@pillaimotors.in",          "The address printed on the contact page, in the footer and in the "
                                                               "search-engine listing."),
-    ("email_service",      "sales@pillaiandsons.in",           "Optional separate workshop address. Nothing on the site shows this "
+    ("email_service",      "digital.marketing@pillaimotors.in",           "Optional separate workshop address. Nothing on the site shows this "
                                                               "yet; set it and it is ready for a service-enquiry link."),
     ("address_line1",      "31-A, Medical College Road",      "Street address line 1."),
     ("address_line2",      "Rajjappa Nagar, Jayalakshmi Nagar", "Street address line 2 / locality."),

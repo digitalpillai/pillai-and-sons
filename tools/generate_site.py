@@ -2353,7 +2353,7 @@ def build():
         depth = depth_of(pg["href"])
         pg["head_first"] = shim if pg["key"] == "notfound" else ""
 
-        parts = [P.build_head(pg, depth), P.build_topbar(),
+        parts = [P.build_head(pg, depth),
                  P.build_header(depth, pg["href"])]
 
         # Everything from the banner down lives inside <main>, and <main> carries

@@ -1,5 +1,5 @@
 /**
- * Code.gs — V3
+ * Code.gs — V4
  * Pillai & Sons — Careers form backend
  *
  * Handles three actions:
@@ -102,13 +102,16 @@ function handleApply_(p) {
 
     var row = COLUMNS.map(function (c) {
       var key = c[1];
-      if (key === 'submittedAt') return p.submittedAt || new Date();
+      if (key === 'submittedAt') return new Date();
       if (key === 'resumeUrl')   return '';
       return p[key] || '';
     });
 
     sheet.appendRow(row);
-    return json_({ result: 'success', row: sheet.getLastRow() });
+    var n = sheet.getLastRow();
+    // keep the timestamp column readable and unambiguous
+    sheet.getRange(n, 1).setNumberFormat('dd-MMM-yyyy hh:mm AM/PM');
+    return json_({ result: 'success', row: n });
   } finally {
     try { lock.releaseLock(); } catch (ignore) {}
   }
