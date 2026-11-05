@@ -155,7 +155,7 @@ Forms on the site:
 - Review submission
 
 To change the destination number, edit `whatsapp_number` in the Business sheet
-(country code + number, digits only — `918939752872`).
+(country code + number, digits only — `917358105818`).
 
 ---
 

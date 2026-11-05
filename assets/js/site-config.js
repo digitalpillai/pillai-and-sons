@@ -15,7 +15,7 @@ window.SITE_CONFIG = {
     "phone_country_code": "91",
     "phone_service": "8071645674",
     "phone_service_display": "+91 80716 45674",
-    "whatsapp_number": "918939752872",
+    "whatsapp_number": "917358105818",
     "email": "digital.marketing@pillaimotors.in",
     "email_service": "digital.marketing@pillaimotors.in",
     "address_line1": "31-A, Medical College Road",

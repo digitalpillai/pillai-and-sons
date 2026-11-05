@@ -20,7 +20,7 @@ BUSINESS = [
     ("phone_country_code", "91",                              "Country code without '+'. India = 91."),
     ("phone_service",      "8071645674",                      "Workshop / service booking number. Digits only."),
     ("phone_service_display", "+91 89397 52872",              "How the service number is printed on screen."),
-    ("whatsapp_number",    "918939752872",                    "Country code + number, digits only. Every form opens wa.me/<this>."),
+    ("whatsapp_number",    "917358105818",                    "Country code + number, digits only. Every form opens wa.me/<this>."),
     ("email",              "digital.marketing@pillaimotors.in",          "The address printed on the contact page, in the footer and in the "
                                                               "search-engine listing."),
     ("email_service",      "digital.marketing@pillaimotors.in",           "Optional separate workshop address. Nothing on the site shows this "

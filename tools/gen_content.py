@@ -134,16 +134,16 @@ MODELS = [
     },
     {
         "key": "brezza", "name": "Brezza", "channel": "arena",
-        "body": "compact-suv", "segment": "Compact SUV", "price": "7,39,900",
-        "seats": "5", "fuel": "Petrol, CNG", "gearbox": "Manual, 6-speed AT",
-        "mileage": "19.80 km/l", "engine": "1.5L K-Series Dual Jet",
-        "pitch": "The compact SUV that made the segment. Sub-four-metre footprint, real "
+        "body": "compact-suv", "segment": "Compact SUV", "price": "7,50,000",
+        "seats": "5", "fuel": "Petrol, CNG", "gearbox": "6-speed Manual, 6-speed AT",
+        "mileage": "Up to 21.09 km/l", "engine": "1.0L Boosterjet Turbo / 1.5L K-Series",
+        "pitch": "The compact SUV that made the segment, now with a 110hp Boosterjet turbo alongside the proven 1.5. Sub-four-metre footprint, real "
                  "ground clearance, and a proper torque converter automatic.",
         "highlights": [
-            "6-speed torque converter automatic — smoother than an AMT",
-            "Electric sunroof and 360-degree camera on higher trims",
-            "Head-up display and ventilated front seats",
-            "S-CNG option with no compromise on boot access",
+            "New 1.0L Boosterjet turbo — 110hp and 170Nm",
+            "10.1-inch SmartPlay Pro X with built-in navigation",
+            "Ventilated front seats and 64-colour ambient lighting",
+            "S-CNG with the cylinder mounted underbody, so the boot stays usable",
         ],
     },
     {
@@ -191,21 +191,21 @@ MODELS = [
     # ----------------------------------------------------------------- NEXA
     {
         "key": "baleno", "name": "Baleno", "channel": "nexa",
-        "body": "hatchback", "segment": "Premium hatchback", "price": "5,98,000",
-        "seats": "5", "fuel": "Petrol, CNG", "gearbox": "Manual, AMT",
-        "mileage": "22.35 km/l", "engine": "1.2L K-Series Dual Jet",
-        "pitch": "NEXA's entry point and India's best-selling premium hatchback. A big "
+        "body": "hatchback", "segment": "Premium hatchback", "price": "5,99,000",
+        "seats": "5", "fuel": "Petrol, CNG", "gearbox": "5-speed Manual, 5-speed AMT",
+        "mileage": "Up to 24.77 km/l", "engine": "1.2L Z12E (3-cylinder)",
+        "pitch": "NEXA's entry point and India's best-selling premium hatchback, now with Level 2 ADAS and a new three-cylinder engine. A big "
                  "cabin, a supple ride and a genuinely good stereo.",
         "highlights": [
-            "HeadUp Display and 360-degree view camera",
-            "9-inch SmartPlay Pro+ with Arkamys-tuned sound",
-            "Six airbags standard, ESP with hill hold",
-            "The roomiest cabin in the premium hatchback class",
+            "Level 2 ADAS — adaptive cruise, lane keep and emergency braking",
+            "New 1.2L Z12E engine — 83hp, up to 24.77 km/l",
+            "Six airbags standard, 360-degree camera and TPMS",
+            "Ventilated front seats and a cooled wireless charger",
         ],
     },
     {
         "key": "fronx", "name": "Fronx", "channel": "nexa",
-        "body": "compact-suv", "segment": "Crossover SUV", "price": "6,84,000",
+        "body": "compact-suv", "segment": "Crossover SUV", "price": "6,90,000",
         "seats": "5", "fuel": "Petrol, Turbo, CNG", "gearbox": "Manual, AMT, 6-speed AT",
         "mileage": "21.79 km/l", "engine": "1.2L Dual Jet / 1.0L Boosterjet",
         "pitch": "A crossover that drives like a hatchback. The Boosterjet turbo with "
@@ -219,7 +219,7 @@ MODELS = [
     },
     {
         "key": "grand-vitara", "name": "Grand Vitara", "channel": "nexa",
-        "body": "mid-suv", "segment": "Midsize SUV", "price": "10,76,000",
+        "body": "mid-suv", "segment": "Midsize SUV", "price": "10,77,000",
         "seats": "5", "fuel": "Petrol, Strong Hybrid, CNG", "gearbox": "Manual, AT, e-CVT",
         "mileage": "Up to 27.97 km/l", "engine": "1.5L Intelligent Electric Hybrid",
         "pitch": "The midsize SUV that runs on electric power alone at low speeds. "
@@ -233,7 +233,7 @@ MODELS = [
     },
     {
         "key": "xl6", "name": "XL6", "channel": "nexa",
-        "body": "mpv", "segment": "Premium MPV", "price": "11,57,000",
+        "body": "mpv", "segment": "Premium MPV", "price": "11,62,000",
         "seats": "6", "fuel": "Petrol, CNG", "gearbox": "Manual, 6-speed AT",
         "mileage": "20.97 km/l", "engine": "1.5L K-Series Dual Jet",
         "pitch": "Six seats with captain chairs in the middle row, for families who "
@@ -247,7 +247,7 @@ MODELS = [
     },
     {
         "key": "jimny", "name": "Jimny", "channel": "nexa",
-        "body": "offroader", "segment": "Off-roader", "price": "12,39,000",
+        "body": "offroader", "segment": "Off-roader", "price": "12,59,000",
         "seats": "4", "fuel": "Petrol", "gearbox": "Manual, 4-speed AT",
         "mileage": "16.94 km/l", "engine": "1.5L K-Series",
         "pitch": "A ladder-frame, low-range four-wheel-drive off-roader with five doors. "
@@ -261,21 +261,21 @@ MODELS = [
     },
     {
         "key": "e-vitara", "name": "e Vitara", "channel": "nexa",
-        "body": "mid-suv", "segment": "Electric SUV", "price": "15,99,000",
+        "body": "mid-suv", "segment": "Electric SUV", "price": "16,19,000",
         "seats": "5", "fuel": "Electric", "gearbox": "Single-speed",
         "mileage": "Up to 543 km range", "engine": "49 kWh / 61 kWh battery",
         "pitch": "Maruti Suzuki's first electric SUV, on a dedicated EV platform, with "
                  "charging and service supported here in Thanjavur.",
         "highlights": [
-            "Two battery choices — 49 kWh and 61 kWh",
+            "Two battery choices — 49 kWh (440 km) and 61 kWh (543 km)",
             "Up to 543 km of certified range",
             "DC fast charging with a heat-pump climate system",
-            "Battery covered under Maruti Suzuki's EV warranty programme",
+            "Level 2 ADAS and a 5-star Bharat NCAP rating",
         ],
     },
     {
         "key": "invicto", "name": "Invicto", "channel": "nexa",
-        "body": "mpv", "segment": "Flagship MPV", "price": "24,97,000",
+        "body": "mpv", "segment": "Flagship MPV", "price": "25,02,000",
         "seats": "7 / 8", "fuel": "Strong Hybrid", "gearbox": "e-CVT",
         "mileage": "23.24 km/l", "engine": "2.0L Strong Hybrid",
         "pitch": "The flagship. A seven or eight-seat hybrid MPV for people who are "
