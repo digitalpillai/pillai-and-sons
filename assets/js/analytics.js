@@ -5,7 +5,7 @@
    SETUP: put your Measurement ID on the GA_ID line below. Until you do, this
    file loads nothing and sends nothing, so it is safe to ship as-is.
 
-        var GA_ID = "G-XXXXXXXXXX";
+        var GA_ID = "G-CCYJXPEP3D";
 
    What it records, on every page, without you tagging anything by hand:
 
@@ -30,7 +30,7 @@
 (function () {
   "use strict";
 
-  var GA_ID = "G-XXXXXXXXXX";           // <-- replace with your Measurement ID
+  var GA_ID = "G-CCYJXPEP3D";           // <-- replace with your Measurement ID
 
   // Not configured yet, or a browser too old for delegated lookups: do nothing.
   if (!/^G-[A-Z0-9]{4,}$/i.test(GA_ID)) return;
